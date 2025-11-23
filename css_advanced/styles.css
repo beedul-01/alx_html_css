@@ -82,13 +82,13 @@ header{
 .navs{
     float:right;
     display: flex;
-    gap: 30px;
+    gap: 50px;
     list-style: none;
     margin-right: 170px;
     margin-top: 30px;
 } 
 .navs a{
-    color: aliceblue;
+    color: white;
     text-decoration: none;
     font-family: 'SourceSansPro-bold', sans-serif;
     font-size: 12px;
@@ -96,7 +96,7 @@ header{
 .first{
     font-family: 'SourceSansPro-bold';
     text-align: center;
-    color: aliceblue;
+    color: white;
     margin-top: 180px;
 
 }
@@ -119,10 +119,10 @@ header{
     border-radius: 22px;
     border:0;
     font-family: 'sourcesanspro-light',  sans-serif;
-    color: aliceblue;
+    color: white;
 }
 .hh1{
-    color: aliceblue;
+    color: white;
     font-family: 'sourcesanspro-light', sans-serif;
     margin-left: 600px;
     margin-top: 180px;
@@ -135,7 +135,7 @@ header{
     margin-left: 220px;
     margin-top: 70px;
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-family: 'sourcesanspro-light', sans-serif;
 
 }
@@ -153,7 +153,7 @@ header{
 }
 .trt2{
     margin-top: 120px;
-    color: aliceblue;
+    color: white;
     font-family: 'sourcesanspro-light';
     font-size: 22px;
 }
@@ -177,6 +177,21 @@ h3{
     gap: 30px;
     margin-left: 150px;
     margin-top: 80px;
+}
+.img-par{
+    position: relative;
+    display: inline-block;
+}
+.play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+
 }
 .sec-3b{
     width: 255px; 
@@ -206,7 +221,9 @@ h3{
     margin-bottom: 15px;
     font-family: 'sourcesanspro-regular';
     font-size: 14px;
-    color: #071629;
+    color: gray;
+    margin-top: 10px;
+    opacity: 51%;
 }
 .fl1{
     display: flex;
@@ -233,7 +250,7 @@ h3{
     font-size: 32px;
     margin-top: 80px;
     margin-left: 600px;
-    color: aliceblue;
+    color: white;
 }
 .sec-4a{
     display: flex;
@@ -250,7 +267,7 @@ h3{
 .fl3{
     width: 257;
     height: 153;
-    color: aliceblue;
+    color: white;
     font-family: 'sourcesanspro-regular';
     font-size: 14px;
     text-align: center;
@@ -263,7 +280,7 @@ h3{
     border-radius: 22px;
     border:0;
     font-family: 'sourcesanspro-light',  sans-serif;
-    color: aliceblue; 
+    color: white; 
     margin-top: 50px;
     margin-left: 600px;
 }
@@ -297,7 +314,7 @@ h3{
 .hh5{
     font-size: 16px;
     font-family: 'SourceSansPro-bold';
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     color: #071629;
 }
 footer{
@@ -315,7 +332,7 @@ footer{
 .fl5{
     width: 130px;
     height: 30px;
-    color: antiquewhite;
+    color: white;
     display: flex;
     gap: 10px;
 }
