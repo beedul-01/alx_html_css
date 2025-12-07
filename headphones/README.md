@@ -1,0 +1,1 @@
+a responsive webpage switching from desktop to mobile view depending on the device screen width.

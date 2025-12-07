@@ -195,3 +195,42 @@ h6 {
   	float: none;
   }
 }
+
+
+
+
+
+
+
+.sec-4a{
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.loip{
+    font-family: 'sourcesanspro-semibold';
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.fl3{
+    width: 257;
+    height: 153;
+    color: aliceblue;
+    font-family: 'sourcesanspro-regular';
+    font-size: 14px;
+    text-align: center;
+}
+
+.b2{
+    background-color: #C271FF;
+    width: 168px;
+    height: 44px;
+    border-radius: 22px;
+    border:0;
+    font-family: 'sourcesanspro-light',  sans-serif;
+    color: aliceblue; 
+    margin-top: 80px;
+    margin-left: 550px;
+}
